@@ -16,12 +16,15 @@ const TextInputField = ({ questionID, text, handleOnChange, handleOnPress }) => 
         editable={textInputDisabled}
         keyboardType='default'
         secureTextEntry={passwordInput}
+        multiline={true}
       />
       <TouchableOpacity
         style={styles[buttonStyle]}
         onPress={handleOnPress}
         disabled={buttonDisabled}>
-        <Text style={styles.sendText}>Send</Text>
+        <Text style={styles.sendText}>
+          Send
+        </Text>
       </TouchableOpacity>
     </SafeAreaView>
   );
@@ -33,13 +36,13 @@ const styles = StyleSheet.create({
     borderColor: '#d1e1f8',
     borderWidth: 1,
     borderRadius: 5,
-    padding: 10,
+    padding: 15,
     width: '65%',
     backgroundColor: '#fff',
   },
   container: {
     flex: 0,
-    padding: 30,
+    padding: 10,
     display: 'flex',
     flexDirection: 'row',
     justifyContent: 'space-around',

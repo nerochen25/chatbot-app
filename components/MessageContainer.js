@@ -54,6 +54,8 @@ const styles = StyleSheet.create({
     width: '100%',
     marginLeft: 0,
     marginRight: 0,
+    marginTop: 10,
+    marginBottom: 10,
   },
   flatList: {
     backgroundColor: 'white',

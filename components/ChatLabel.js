@@ -14,7 +14,6 @@ const ChatLabel = ({ hostName }) => {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    // top: 0,
     marginTop: 10,
     height: '8%',
     flexDirection: 'row',
@@ -30,9 +29,9 @@ const styles = StyleSheet.create({
     padding: 20,
   },
   image: {
-    width: 40,
-    height: 40,
-    marginLeft: 30,
+    width: 35,
+    height: 35,
+    marginLeft: 25,
   },
 });
 
