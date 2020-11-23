@@ -13,16 +13,14 @@ const Header = () => {
 const styles = StyleSheet.create({
   container: {
     width: '100%',
-    marginTop: 10,
-    height: '5%',
+    height: '8%',
     flexDirection: 'row',
     alignItems: 'center',
     backgroundColor: '#132847',
-    textAlign: 'center'
   },
   text: {
     fontWeight: 'bold',
-    fontSize: 16,
+    fontSize: 20,
     color: '#9daaba',
     letterSpacing: 1,
     textAlign: 'center',

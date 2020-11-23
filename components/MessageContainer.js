@@ -40,6 +40,7 @@ const MessageContainer = ({ hostName, responses }) => {
         renderItem={renderResponse}
         keyExtractor={(item, id) => id.toString()}
         onContentSizeChange={scrollToEnd}
+        persistentScrollbar={true}
       />
 
     </SafeAreaView>
